@@ -32,7 +32,6 @@
     <string name="menu_delete_all" msgid="808729454898114735">"Slet alle tråde"</string>
     <string name="menu_delete" msgid="1851666911396479006">"Slet tråd"</string>
     <string name="menu_view" msgid="7448852683948080108">"Vis tråd"</string>
-    <string name="menu_debug_dump" msgid="6855869130206549643">"FEJLFINDING AF DUMP"</string>
     <string name="refreshing" msgid="987335057871404222">"Opdaterer ..."</string>
     <string name="menu_cell_broadcasts" msgid="5646161375983084660">"Mobilmeddelelser"</string>
     <string name="has_draft" msgid="2487465595514636160">"Kladde"</string>
@@ -382,11 +381,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Brugerdefineret vibrationsmønster</string>
     <string name="pref_text_mms_notification_vibrate_custom">Formatér fra/til i millisekunder: fra, til, fra, til, ...</string>
 
-    <!-- Settings item for boolean option for group MMS sending/receiving -->
-    <string name="pref_title_mms_group_mms">Gruppe-MMS</string>
-    <!-- Settings item description for boolean group MMS sending/receiving -->
-    <string name="pref_summary_mms_group_mms">Slå send og modtag af gruppe-MMS til</string>
-
     <!-- Extra Settings: -->
     <string name="pref_extra_settings">Ekstra indstillinger</string>
 
@@ -395,9 +389,9 @@
     <string name="pref_summary_strip_unicode">Erstat gængse tegn, som ikke understøttes i 160-tegns SMS-beskeder</string>
 
     <!-- Enable emojis -->
-    <string name="menu_insert_emoji">Indsæt emojis</string>
-    <string name="pref_title_enable_emojis">Emoji-understøttelse</string>
-    <string name="pref_summary_enable_emojis">Slå understøttelse af Unicode-emojis til, et sæt af 471 flotte smileys</string>
+    <string name="menu_insert_emoji">Indsæt smileys</string>
+    <string name="pref_title_enable_emojis">Smiley-understøttelse</string>
+    <string name="pref_summary_enable_emojis">Slå understøttelse af Unicode-smileys til, et sæt af 471 flotte smileys</string>
 
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">Fulde tidsstempler</string>
@@ -429,8 +423,20 @@
     <string name="type_to_reply_text_enter_to_send">Skriv for at svare</string>
 
     <!-- QM Toast -->
-    <string name="toast_sending_message">Sender besked</string>
+    <string name="toast_sending_message">Sender besked...</string>
 
     <!-- QM - Quick reply -->
     <string name="qm_quick_reply">Hurtigt svar</string>
+
+    <!-- Settings item for the soft keyboard picker -->
+    <string name="pref_title_input_type">Type af softwaretastatur</string>
+    <string name="pref_summary_input_type">Vælg det softwaretastatur, som skal bruges til at skrive beskeder</string>
+
+    <!-- Soft Keyboard Type -->
+    <string name="pref_keyboard_emoji">Smiley</string>
+    <string name="pref_keyboard_send">Send med Enter</string>
+    <string name="pref_keyboard_new_line">Ny linje med Enter</string>
+
+    <string name="label_mms_push">MMS-push</string>
+    <string name="desc_mms_push">Sender MMS fra udbakken til netværket</string>
 </resources>
