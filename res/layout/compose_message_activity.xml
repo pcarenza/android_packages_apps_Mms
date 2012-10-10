@@ -158,7 +158,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="@color/compose_message_edit_text"
+                        android:textColor="@color/compose_message_text_counter"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"
