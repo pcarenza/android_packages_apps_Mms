@@ -382,7 +382,7 @@
     <string name="pref_title_pref_key_emojis_quick">Tlačítko smajlíků</string>
     <string name="pref_summary_pref_key_emojis_quick">Zobrazí tlačítka na levé straně oblasti pro psaní textu pro rychlý přístup.</string>
     <string name="pref_title_mms_full_timestamp">Plný časový údaj</string>
-    <string name="pref_summary_mms_full_timestamp">Zobrazit datim i čas</string>
+    <string name="pref_summary_mms_full_timestamp">Zobrazit datum i čas</string>
     <string name="pref_title_mms_use_sent_timestamp">Originální časový údaj</string>
     <string name="pref_summary_mms_use_sent_timestamp">Zobrazit datum odeslání místo obdržení v časovém údaji</string>
     <string name="pref_quickmessage">Vyskakovací okno</string>
