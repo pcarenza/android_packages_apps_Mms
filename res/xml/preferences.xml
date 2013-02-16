@@ -112,32 +112,30 @@
         <CheckBoxPreference
             android:key="pref_key_enable_notifications"
             android:title="@string/pref_title_notification_enabled"
-            android:summary="@string/pref_summary_notification_enabled"
             android:defaultValue="true" />
 
-        <RingtonePreference
+       <CheckBoxPreference
+            android:key="pref_key_enable_privacy_mode"
             android:layout="?android:attr/preferenceLayoutChild"
             android:dependency="pref_key_enable_notifications"
-            android:key="pref_key_ringtone"
+            android:defaultValue="false"
+            android:title="@string/pref_title_notification_privacy_mode_enabled"
+            android:summary="@string/pref_summary_notification_privacy_mode_enabled" />
+
+       <RingtonePreference android:key="pref_key_ringtone"
             android:title="@string/pref_title_notification_ringtone"
             android:ringtoneType="notification"
-            android:defaultValue="content://settings/system/notification_sound" />
-
-        <ListPreference
-            android:layout="?android:attr/preferenceLayoutChild"
             android:dependency="pref_key_enable_notifications"
-            android:key="pref_key_vibrateWhen"
-            android:defaultValue="@string/prefDefault_vibrateWhen"
+            android:defaultValue="content://settings/system/notification_sound" />
+       <CheckBoxPreference android:key="pref_key_vibrate"
             android:title="@string/pref_title_notification_vibrateWhen"
-            android:summary="@string/pref_summary_notification_vibrateWhen"
-            android:entries="@array/prefEntries_vibrateWhen"
-            android:entryValues="@array/prefValues_vibrateWhen"
-            android:dialogTitle="@string/prefDialogTitle_vibrateWhen" />
+            android:dependency="pref_key_enable_notifications"
+            android:defaultValue="false" />
 
         <com.android.mms.preferences.CustomVibrateListPreference
             android:layout="?android:attr/preferenceLayoutChild"
             android:key="pref_key_mms_notification_vibrate_pattern"
-            android:dependency="pref_key_vibrateWhen"
+            android:dependency="pref_key_vibrate"
             android:defaultValue=""
             android:title="@string/pref_title_mms_notification_vibrate_pattern"
             android:summary="@string/pref_summary_mms_notification_vibrate_pattern"
@@ -236,7 +234,6 @@
         <ListPreference
             android:key="pref_key_mms_input_type"
             android:title="@string/pref_title_input_type"
-            android:summary="@string/pref_summary_input_type"
             android:entries="@array/pref_entries_input_type"
             android:entryValues="@array/pref_values_input_type" />
     </PreferenceCategory>
