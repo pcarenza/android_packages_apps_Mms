@@ -371,8 +371,6 @@
     <string name="template_not_present_error">Nema gotovih predložaka</string>
     <string name="template_not_present_error_title">Greška</string>
     <string name="template_select">Odaberite predložak</string>
-    <string name="template_cancel_confirm_title">Upozorenje</string>
-    <string name="template_cancel_confirm_text">Predložak će biti obrisan. Nastavi?</string>
     <string name="gestures_already_present">Upozorenje: Drugi predložak ima sličnu gestu!</string>
 
     <!-- Change Vibrate pattern/method for message notification -->
@@ -389,6 +387,10 @@
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">Emoji podrška</string>
     <string name="pref_summary_enable_emojis">Uključi podršku za unicode emojije</string>
+
+    <!-- Enable SoftBank emoji encoding -->
+    <string name="pref_title_enable_softbank_encoding">Softbank emoji</string>
+    <string name="pref_summary_enable_softbank_encoding">Uključi podršku za SoftBank emoji enkodiranje</string>
 
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">Puna vremenska oznaka</string>

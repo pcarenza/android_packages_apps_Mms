@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2011 The Android Open Source Project
-     Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -32,9 +31,5 @@
     <dimen name="widget_margin_left">0dip</dimen>
     <dimen name="widget_margin_right">0dip</dimen>
     <dimen name="widget_margin_bottom">0dip</dimen>
-
-    <!-- QuickMessage -->
-    <dimen name="qm_message_height">205dp</dimen>
-    <dimen name="qm_dialog_button_bar_height">48dip</dimen>
 
 </resources>
