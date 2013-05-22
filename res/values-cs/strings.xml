@@ -377,9 +377,9 @@
     <string name="pref_extra_settings">Extra nastavení</string>
     <string name="pref_title_strip_unicode">Odstranění diakritiky</string>
     <string name="pref_summary_strip_unicode">Nahrazovat místní znaky, které nejsou podporovány ve 160 znacích SMS zpráv.</string>
-    <string name="pref_title_enable_emojis">Podpora Smajlíků</string>
-    <string name="pref_summary_enable_emojis">Povolit podporu Unicode emojis. Použít 471 pěkných smajlíků</string>
-    <string name="pref_title_pref_key_emojis_quick">Tlačítko smajlíků</string>
+    <string name="pref_title_enable_emojis">Zapnout emojis</string>
+    <string name="pref_summary_enable_emojis">Zapnout podporu speciálních 471 unikodových emojis smajlíků</string>
+    <string name="pref_title_pref_key_emojis_quick">Tlačítko emojis</string>
     <string name="pref_summary_pref_key_emojis_quick">Zobrazí tlačítka na levé straně oblasti pro psaní textu pro rychlý přístup.</string>
     <string name="pref_title_mms_full_timestamp">Plný časový údaj</string>
     <string name="pref_summary_mms_full_timestamp">Zobrazit datim i čas</string>
@@ -404,4 +404,5 @@
     <string name="more_string">Ještě %1$s...</string>
     <string name="copy_email">Kopírovat e-mailovou adresu</string>
     <string name="copy_number">Kopírovat telefonní číslo</string>
+    <string name="menu_insert_emoji">Vložit emojis</string>
 </resources>
